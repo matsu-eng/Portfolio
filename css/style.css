@@ -91,7 +91,7 @@ ul, li {
   top: -8px;
   left: -60px;
   font-size: 36px;
-  color: #d59fea;
+  color: #f3f3f3;
   -webkit-transform: rotate(-10deg);
   transform: rotate(-10deg);
 }
@@ -99,7 +99,7 @@ ul, li {
 #header .logo-title {
   font-family: 'Oswald', sans-serif;
   font-size: 94px;
-  color: #f39ac7;
+  color: #f3f3f3;
   line-height: 1;
   letter-spacing: -2px;
 }
