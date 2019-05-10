@@ -94,7 +94,7 @@ ul, li {
   top: -8px;
   left: -60px;
   font-size: 36px;
-  color: #d59fea;
+  color: #f3f3f3;
   -webkit-transform: rotate(-10deg);
   transform: rotate(-10deg);
 }
@@ -102,16 +102,17 @@ ul, li {
 #header .logo-title {
   font-family: 'Oswald', sans-serif;
   font-size: 94px;
-  color: #f39ac7;
+  color: #f3f3f3;
   line-height: 1;
   letter-spacing: -2px;
 }
 
 #header .logo-desc {
   display: block;
-  font-size: 16px;
+  font-size: 32px;
   text-align: center;
   margin-top: 5px;
+  color: #f3f3f3;
 }
 
 /*--------------------------------
@@ -182,7 +183,6 @@ ul, li {
   font-size: 56px;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #f39ac7;
 }
 
 .section .section-desc {
@@ -270,14 +270,14 @@ ul, li {
 }
 
 /*--------------------------------
-　About
+　PROFILE
 ---------------------------------*/
 
-#about .two-column-image {
+#PROFILE .two-column-image {
   width: 33%;
 }
 
-#about .two-column-desc {
+#PROFILE .two-column-desc {
   width: 62%;
 }
 
@@ -349,13 +349,13 @@ ul, li {
   height: 20px;
   line-height: 20px;
 }
-
+  
 #skill .rate:before {
   color: #ddd;
 }
 
 #skill .rate:after {
-  color: #e8629f;
+  color: #ff9100c9;
   overflow: hidden;
   white-space: nowrap;
 }
@@ -523,16 +523,16 @@ ul, li {
   #works .card-caption-info {
     font-size: 11px;
   }
-  #about .two-column-wrapper {
+  #PROFILE .two-column-wrapper {
     width: 100%;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
-  #about .two-column-image {
+  #PROFILE .two-column-image {
     width: 50%;
     margin: 0 auto 20px;
   }
-  #about .two-column-desc {
+  #PROFILE .two-column-desc {
    width: 100%;
  }
 
