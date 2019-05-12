@@ -59,7 +59,7 @@ ul, li {
 }
 
 #contents {
-  padding: 100px 0;
+  /* padding: 100px 0; */
 }
 
 /*--------------------------------
@@ -77,7 +77,7 @@ ul, li {
   -ms-align-items: center;
   align-items: center;
   height: 480px;
-  background: url(../img/header/desert-2340326_960_720.jpg) center center;
+  background: url(../img/header/tech_dec.jpg) center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -93,8 +93,8 @@ ul, li {
   position: relative;
   top: -8px;
   left: -60px;
-  font-size: 28px;
-  color: #f3f3f3;
+  font-size: 36px;
+  color: #d59fea;
   -webkit-transform: rotate(-10deg);
   transform: rotate(-10deg);
 }
@@ -102,17 +102,17 @@ ul, li {
 #header .logo-title {
   font-family: 'Oswald', sans-serif;
   font-size: 94px;
-  color: #f3f3f3;
+  color: #fff;
   line-height: 1;
   letter-spacing: -2px;
 }
 
 #header .logo-desc {
   display: block;
-  font-size: 32px;
+  font-size: 36px;
   text-align: center;
-  margin-top: 5px;
-  color: #f3f3f3;
+  margin-top: 30px;
+  color: #fff;
 }
 
 /*--------------------------------
@@ -149,6 +149,7 @@ ul, li {
 #gnav li a {
   color: #333;
   letter-spacing: -0.01em;
+  margin-left: 12px;
 }
 
 #gnav.fixed {
@@ -168,7 +169,8 @@ ul, li {
 ---------------------------------*/
 
 .section .inner {
-  padding: 80px 10px;
+  /* padding: 80px 10px; */
+  padding: 80px 10px 10px 0px;
 }
 
 .section .section-title-block {
@@ -183,6 +185,7 @@ ul, li {
   font-size: 56px;
   font-weight: bold;
   margin-bottom: 10px;
+  color: #444;
 }
 
 .section .section-desc {
@@ -242,10 +245,15 @@ ul, li {
 #works .card-image {
   display: block;
   margin-bottom: 8px;
+  height: 245px;
+}
+
+#works .card-caption {
+  text-align: center;
 }
 
 #works .card-caption-title {
-  font-size: 13px;
+  font-size: 16px;
   font-weight: bold;
 }
 
@@ -270,14 +278,14 @@ ul, li {
 }
 
 /*--------------------------------
-　PROFILE
+　About
 ---------------------------------*/
 
-#PROFILE .two-column-image {
+#about .two-column-image {
   width: 33%;
 }
 
-#PROFILE .two-column-desc {
+#about .two-column-desc {
   width: 62%;
 }
 
@@ -326,10 +334,18 @@ ul, li {
 
 #skill .skill-desc {
   flex-basis: calc(100% - 75px - 30px);
+  text-align: center;
 }
 
 #skill .skill-desc-title {
   margin-bottom: 3px;
+  font-size:26px;
+  padding: 24px;
+  font-weight: bold;
+}
+
+#skill .skill-desc-title i{
+  margin-right: 12px;
 }
 
 #skill .rate {
@@ -349,13 +365,13 @@ ul, li {
   height: 20px;
   line-height: 20px;
 }
-  
+
 #skill .rate:before {
   color: #ddd;
 }
 
 #skill .rate:after {
-  color: #ff9100c9;
+  color: #808080;
   overflow: hidden;
   white-space: nowrap;
 }
@@ -414,6 +430,7 @@ ul, li {
 #contact .contact-list li img {
   width: 60px;
   margin: 0 auto 5px;
+  border-radius:50%;
 }
 
 #contact .contact-list-desc {
@@ -523,16 +540,16 @@ ul, li {
   #works .card-caption-info {
     font-size: 11px;
   }
-  #PROFILE .two-column-wrapper {
+  #about .two-column-wrapper {
     width: 100%;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
-  #PROFILE .two-column-image {
+  #about .two-column-image {
     width: 50%;
     margin: 0 auto 20px;
   }
-  #PROFILE .two-column-desc {
+  #about .two-column-desc {
    width: 100%;
  }
 
@@ -594,3 +611,43 @@ ul, li {
     padding: 0 10px;
     margin-bottom: 5px;
   }
+
+ .profile img {
+  /* border-radius: 50%; 
+  border: 4px solid GREEN; */
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    object-fit: cover; /* ADD */
+ }
+}
+
+.profile img {
+  border-radius: 50%;
+}
+
+.contact-img{
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    object-fit: cover; /* ADD */
+}
+
+.section-title-css{
+  margin-left: 12px;
+}
+
+.table{
+  text-align: center;
+}
+
+@media only screen and (max-width: 540px) {
+  #gnav li {
+    font-size: 8px;
+  }
+}
